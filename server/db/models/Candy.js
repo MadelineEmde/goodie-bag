@@ -26,6 +26,6 @@ module.exports = db.define("candy", {
   imageUrl: {
     type: Sequelize.STRING,
     defaultValue:
-      "https://target.scene7.com/is/image/Target/GUEST_3d2a8073-36e6-4cec-8c8c-872639105820?wid=488&hei=488&fmt=pjpeg"
+      "http://icons.iconarchive.com/icons/webalys/kameleon.pics/256/Candy-icon.png"
   }
 });

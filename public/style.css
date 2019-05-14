@@ -10,7 +10,7 @@
 
 body::after {
   content: "";
-  background: url('bg.jpg');
+  background: url("bg.jpg");
   opacity: 0.1;
   top: 0;
   left: 0;
@@ -21,6 +21,7 @@ body::after {
 }
 
 nav {
+  justify-content: space-around;
   align-items: center;
   background-color: #333333;
   color: #c0c0c0;
@@ -35,3 +36,51 @@ main {
   flex-direction: column;
   justify-content: center;
 }
+#goodie-container{
+  width: 28%;
+}
+#goodies {
+  margin: 2em;
+}
+
+/*
+/////Classes //////
+*/
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.goodie {
+  margin: 1em;
+}
+
+.goodie img {
+  height: 100%;
+  width: 100%;
+  transition: box-shadow 0.5s ease;
+  border-radius: 3px;
+}
+
+.goodie img:hover {
+  box-shadow: 2px 2px 2px #5a5a5a;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #c0c0c0;
+}
+
+.nav-link:hover {
+  color: grey
